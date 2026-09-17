@@ -142,8 +142,7 @@ This repository contains research code and experimental materials. The implement
 ## Author
 
 **Mohammed Waleed Khan**
-
-Bachelor of Engineering (Hons.) Electronics Engineering, majoring in Computer Engineering
+Bachelor of Engineering (Hons.) Electronics majoring in Computer
 
 ## License
 
