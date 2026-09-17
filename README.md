@@ -129,11 +129,54 @@ This repository supports research on:
 * Explainable Artificial Intelligence
 * System log analysis
 
-## Related Work
+## Publications
 
-**XAI-APT: Explainable LLM-Based Advanced Persistent Threats Detection via Logs Embeddings and Autoencoders**
+This project has contributed to the following research publications:
 
-The research investigates the combination of LLM-based semantic log embeddings, autoencoder anomaly detection, and explainability for APT detection.
+### 1. Semantic-Aware Advanced Persistent Threat Detection Using Autoencoders on LLM-Encoded System Logs
+
+**Authors:** Waleed Khan Mohammed, Zahirul Arief Irfan Bin Shahrul Anuar, Mousa Sufian Mousa Mitani, Hezerul Abdul Karim, Nouar AlDahoul
+
+**Year:** 2026
+
+**arXiv:** [arXiv:2602.00204](https://arxiv.org/abs/2602.00204)
+
+**BibTeX:**
+
+```bibtex
+@misc{mohammed2026semanticawareadvancedpersistentthreat,
+  title={Semantic-Aware Advanced Persistent Threat Detection Using Autoencoders on LLM-Encoded System Logs},
+  author={Waleed Khan Mohammed and Zahirul Arief Irfan Bin Shahrul Anuar and Mousa Sufian Mousa Mitani and Hezerul Abdul Karim and Nouar AlDahoul},
+  year={2026},
+  eprint={2602.00204},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2602.00204}
+}
+```
+
+### 2. XAI-APT: Explainable LLM-Based Advanced Persistent Threats Detection via Logs Embeddings and Autoencoders
+
+**Authors:** Waleed Khan Mohammed, Hezerul Abdul Karim, Vik Tor Goh, Nouar AlDahoul
+
+**Year:** 2026
+
+**Published:** SSRN, June 4, 2026
+
+**SSRN:** https://ssrn.com/abstract=6879858
+
+**DOI:** [10.2139/ssrn.6879858](https://doi.org/10.2139/ssrn.6879858)
+
+**Citation:**
+
+```bibtex
+@article{mohammed2026xai,
+  title={XAI-APT: Explainable LLM-Based Advanced Persistent Threats Detection via Logs Embeddings and Autoencoders},
+  author={Mohammed, Waleed Khan and Abdul Karim, Hezerul and Tor Goh, Vik and Aldahoul, Nouar},
+  journal={Vik and Aldahoul, Nouar, XAI-APT: Explainable LLM-Based Advanced Persistent Threats Detection via Logs Embeddings and Autoencoders (June 04, 2026)},
+  year={2026}
+}
+```
 
 ## Status
 
