@@ -51,7 +51,7 @@ The dataset is processed into standardized log representations before generating
 
 The main experimental pipeline evaluates combinations of:
 
-* **16 embedding models**
+* **17 embedding models**
 * **11 autoencoder architectures**
 * **5 log contexts**
 * **5 performers**
