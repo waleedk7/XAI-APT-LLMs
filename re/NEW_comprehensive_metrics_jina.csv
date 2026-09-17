@@ -1,0 +1,254 @@
+Performer,Context,Model,AUC-ROC,PR-AUC,Precision,Recall,F1-Score,Accuracy,Inference Time(s)
+5dir,ProcessAll_jina,Baseline,0.9279,0.0412,0.0606,0.2222,0.0952,0.983,0.016
+5dir,ProcessAll_jina,Sparse,0.7159,0.0198,0.0667,0.1111,0.0833,0.9902,0.0215
+5dir,ProcessAll_jina,Deep SVDD,0.9466,0.0616,0.1429,0.2222,0.1739,0.9915,0.006
+5dir,ProcessAll_jina,DAE,0.8931,0.0284,0.0667,0.1111,0.0833,0.9902,0.01
+5dir,ProcessAll_jina,VAE,0.6604,0.0209,0.0667,0.2222,0.1026,0.9844,0.006
+5dir,ProcessAll_jina,Beta-VAE,0.6663,0.0173,0.0667,0.1111,0.0833,0.9902,0.005
+5dir,ProcessAll_jina,GMVAE,0.8122,0.0222,0.0667,0.1111,0.0833,0.9902,0.005
+5dir,ProcessAll_jina,Attention AE,0.9399,0.0366,0.041,0.8889,0.0784,0.916,0.007
+5dir,ProcessAll_jina,LSTMAE,0.9365,0.0341,0.0419,0.8889,0.08,0.9178,0.007
+5dir,ProcessAll_jina,Robust,0.9354,0.0362,0.0437,0.7778,0.0828,0.9307,0.005
+5dir,ProcessAll_jina,Contractive,0.6879,0.0187,0.0625,0.1111,0.08,0.9897,0.005
+5dir,ProcessEvent_jina,Baseline,0.8365,0.0178,0.0279,0.7778,0.0538,0.8901,0.005
+5dir,ProcessEvent_jina,Sparse,0.8803,0.0299,0.0645,0.4444,0.1127,0.9718,0.0053
+5dir,ProcessEvent_jina,Deep SVDD,0.8161,0.0223,0.0328,0.4444,0.0611,0.945,0.005
+5dir,ProcessEvent_jina,DAE,0.7359,0.0281,0.0635,0.4444,0.1111,0.9714,0.005
+5dir,ProcessEvent_jina,VAE,0.7207,0.0305,0.0625,0.4444,0.1096,0.971,0.006
+5dir,ProcessEvent_jina,Beta-VAE,0.6887,0.0285,0.0635,0.4444,0.1111,0.9714,0.005
+5dir,ProcessEvent_jina,GMVAE,0.8778,0.0299,0.0645,0.4444,0.1127,0.9718,0.006
+5dir,ProcessEvent_jina,Attention AE,0.8589,0.0268,0.0482,0.4444,0.087,0.9625,0.009
+5dir,ProcessEvent_jina,LSTMAE,0.8612,0.0292,0.0606,0.4444,0.1067,0.9701,0.006
+5dir,ProcessEvent_jina,Robust,0.8954,0.0226,0.0336,0.4444,0.0625,0.9464,0.005
+5dir,ProcessEvent_jina,Contractive,0.8089,0.0287,0.0645,0.4444,0.1127,0.9718,0.005
+5dir,ProcessExec_jina,Baseline,0.861,0.372,0.6667,0.4444,0.5333,0.9969,0.0055
+5dir,ProcessExec_jina,Sparse,0.951,0.0991,0.5,0.1111,0.1818,0.996,0.005
+5dir,ProcessExec_jina,Deep SVDD,0.8658,0.3921,0.6667,0.4444,0.5333,0.9969,0.005
+5dir,ProcessExec_jina,DAE,0.9309,0.1093,0.1538,0.2222,0.1818,0.9919,0.006
+5dir,ProcessExec_jina,VAE,0.9492,0.0787,0.3333,0.1111,0.1667,0.9955,0.0061
+5dir,ProcessExec_jina,Beta-VAE,0.9465,0.0775,0.3333,0.1111,0.1667,0.9955,0.005
+5dir,ProcessExec_jina,GMVAE,0.9543,0.0996,0.5,0.1111,0.1818,0.996,0.007
+5dir,ProcessExec_jina,Attention AE,0.8033,0.4053,0.8,0.4444,0.5714,0.9973,0.0065
+5dir,ProcessExec_jina,LSTMAE,0.8745,0.331,0.75,0.3333,0.4615,0.9969,0.006
+5dir,ProcessExec_jina,Robust,0.8874,0.2739,0.75,0.3333,0.4615,0.9969,0.0062
+5dir,ProcessExec_jina,Contractive,0.9516,0.0985,0.5,0.1111,0.1818,0.996,0.006
+5dir,ProcessNetflow_jina,Baseline,0.8615,0.206,0.2667,1.0,0.4211,0.8406,0.005
+5dir,ProcessNetflow_jina,Sparse,0.8615,0.206,0.2667,1.0,0.4211,0.8406,0.005
+5dir,ProcessNetflow_jina,Deep SVDD,0.9385,0.6604,1.0,0.5,0.6667,0.971,0.0041
+5dir,ProcessNetflow_jina,DAE,0.8538,0.198,0.2667,1.0,0.4211,0.8406,0.005
+5dir,ProcessNetflow_jina,VAE,0.5269,0.0806,0.1111,0.75,0.1935,0.6377,0.005
+5dir,ProcessNetflow_jina,Beta-VAE,0.5077,0.0804,0.1111,0.25,0.1538,0.8406,0.0035
+5dir,ProcessNetflow_jina,GMVAE,0.8538,0.2827,0.2143,0.75,0.3333,0.8261,0.004
+5dir,ProcessNetflow_jina,Attention AE,0.8692,0.2149,0.2667,1.0,0.4211,0.8406,0.004
+5dir,ProcessNetflow_jina,LSTMAE,0.8615,0.206,0.2667,1.0,0.4211,0.8406,0.004
+5dir,ProcessNetflow_jina,Robust,0.8846,0.2404,0.2667,1.0,0.4211,0.8406,0.004
+5dir,ProcessNetflow_jina,Contractive,0.8462,0.1902,0.2353,1.0,0.381,0.8116,0.004
+5dir,ProcessParent_jina,Baseline,0.9029,0.0275,0.0404,0.4444,0.0741,0.9547,0.006
+5dir,ProcessParent_jina,Sparse,0.7382,0.021,0.0381,0.4444,0.0702,0.9519,0.005
+5dir,ProcessParent_jina,Deep SVDD,0.8188,0.028,0.0449,0.4444,0.0816,0.9592,0.0055
+5dir,ProcessParent_jina,DAE,0.9203,0.0292,0.0367,0.4444,0.0678,0.9501,0.005
+5dir,ProcessParent_jina,VAE,0.6876,0.0135,0.0305,0.4444,0.0571,0.9402,0.007
+5dir,ProcessParent_jina,Beta-VAE,0.7016,0.0138,0.0278,0.4444,0.0523,0.9343,0.007
+5dir,ProcessParent_jina,GMVAE,0.7382,0.021,0.0381,0.4444,0.0702,0.9519,0.006
+5dir,ProcessParent_jina,Attention AE,0.8918,0.0275,0.0382,0.6667,0.0723,0.9302,0.0075
+5dir,ProcessParent_jina,LSTMAE,0.8919,0.0275,0.0382,0.6667,0.0723,0.9302,0.006
+5dir,ProcessParent_jina,Robust,0.7047,0.0175,0.036,0.4444,0.0667,0.9492,0.006
+5dir,ProcessParent_jina,Contractive,0.6573,0.0184,0.0385,0.4444,0.0708,0.9524,0.006
+cadets,ProcessAll_jina,Baseline,0.9991,0.1787,0.2941,0.4545,0.3571,0.9996,0.0515
+cadets,ProcessAll_jina,Sparse,0.9527,0.0141,0.0408,0.3636,0.0734,0.9978,0.0521
+cadets,ProcessAll_jina,Deep SVDD,0.6816,0.0692,0.25,0.3636,0.2963,0.9996,0.0194
+cadets,ProcessAll_jina,DAE,0.9595,0.0109,0.0294,0.3636,0.0544,0.9969,0.043
+cadets,ProcessAll_jina,VAE,0.9591,0.0134,0.036,0.3636,0.0656,0.9975,0.048
+cadets,ProcessAll_jina,Beta-VAE,0.9608,0.015,0.0364,0.3636,0.0661,0.9975,0.0455
+cadets,ProcessAll_jina,GMVAE,0.9552,0.0143,0.0408,0.3636,0.0734,0.9978,0.046
+cadets,ProcessAll_jina,Attention AE,0.9558,0.0142,0.0408,0.3636,0.0734,0.9978,0.0674
+cadets,ProcessAll_jina,LSTMAE,0.9988,0.1806,0.3333,0.4545,0.3846,0.9996,0.0554
+cadets,ProcessAll_jina,Robust,0.9986,0.1522,0.3077,0.3636,0.3333,0.9996,0.0463
+cadets,ProcessAll_jina,Contractive,0.9567,0.0148,0.0417,0.3636,0.0748,0.9978,0.0411
+cadets,ProcessEvent_jina,Baseline,0.8863,0.0017,0.0029,0.0909,0.0057,0.9922,0.0421
+cadets,ProcessEvent_jina,Sparse,0.7987,0.0008,0.0014,0.6364,0.0028,0.8881,0.0407
+cadets,ProcessEvent_jina,Deep SVDD,0.5,0.0002,0.0002,1.0,0.0005,0.0002,0.023
+cadets,ProcessEvent_jina,DAE,0.7719,0.0006,0.0009,0.6364,0.0018,0.8248,0.0417
+cadets,ProcessEvent_jina,VAE,0.7952,0.0008,0.0013,0.6364,0.0025,0.878,0.0465
+cadets,ProcessEvent_jina,Beta-VAE,0.7974,0.0008,0.0013,0.6364,0.0026,0.8785,0.0455
+cadets,ProcessEvent_jina,GMVAE,0.7976,0.0008,0.0013,0.6364,0.0027,0.8846,0.0465
+cadets,ProcessEvent_jina,Attention AE,0.7966,0.0008,0.0013,0.6364,0.0026,0.8818,0.0649
+cadets,ProcessEvent_jina,LSTMAE,0.8705,0.0011,0.0017,0.3636,0.0034,0.9482,0.0542
+cadets,ProcessEvent_jina,Robust,0.8742,0.0015,0.0028,0.3636,0.0056,0.9684,0.0421
+cadets,ProcessEvent_jina,Contractive,0.803,0.0008,0.0014,0.6364,0.0027,0.887,0.043
+cadets,ProcessExec_jina,Baseline,0.9989,0.5832,0.875,0.6364,0.7368,0.9999,0.039
+cadets,ProcessExec_jina,Sparse,0.9707,0.1336,0.4,0.1818,0.25,0.9997,0.041
+cadets,ProcessExec_jina,Deep SVDD,0.7727,0.4257,0.75,0.5455,0.6316,0.9998,0.02
+cadets,ProcessExec_jina,DAE,0.9942,0.1305,1.0,0.0909,0.1667,0.9998,0.0411
+cadets,ProcessExec_jina,VAE,0.9794,0.1034,1.0,0.0909,0.1667,0.9998,0.044
+cadets,ProcessExec_jina,Beta-VAE,0.9801,0.1032,1.0,0.0909,0.1667,0.9998,0.043
+cadets,ProcessExec_jina,GMVAE,0.9748,0.1337,0.4,0.1818,0.25,0.9997,0.043
+cadets,ProcessExec_jina,Attention AE,0.9719,0.091,0.4,0.1818,0.25,0.9997,0.0645
+cadets,ProcessExec_jina,LSTMAE,0.9996,0.5309,0.5833,0.6364,0.6087,0.9998,0.052
+cadets,ProcessExec_jina,Robust,0.9988,0.4766,0.5833,0.6364,0.6087,0.9998,0.042
+cadets,ProcessExec_jina,Contractive,0.9713,0.1202,0.25,0.1818,0.2105,0.9997,0.0395
+cadets,ProcessNetflow_jina,Baseline,0.9392,0.2105,0.375,0.3,0.3333,0.9986,0.011
+cadets,ProcessNetflow_jina,Sparse,0.867,0.0075,0.0179,0.1,0.0303,0.9925,0.012
+cadets,ProcessNetflow_jina,Deep SVDD,0.9402,0.3124,0.3333,0.6,0.4286,0.9981,0.007
+cadets,ProcessNetflow_jina,DAE,0.874,0.0112,0.05,0.1,0.0667,0.9967,0.011
+cadets,ProcessNetflow_jina,VAE,0.8812,0.0084,0.025,0.1,0.04,0.9944,0.012
+cadets,ProcessNetflow_jina,Beta-VAE,0.8776,0.008,0.0192,0.1,0.0323,0.993,0.012
+cadets,ProcessNetflow_jina,GMVAE,0.8832,0.0137,0.0769,0.1,0.087,0.9976,0.012
+cadets,ProcessNetflow_jina,Attention AE,0.8719,0.0078,0.0179,0.1,0.0303,0.9925,0.0155
+cadets,ProcessNetflow_jina,LSTMAE,0.9353,0.1573,0.3333,0.3,0.3158,0.9985,0.013
+cadets,ProcessNetflow_jina,Robust,0.9423,0.1485,0.2727,0.3,0.2857,0.9983,0.0095
+cadets,ProcessNetflow_jina,Contractive,0.8709,0.0078,0.0179,0.1,0.0303,0.9925,0.01
+cadets,ProcessParent_jina,Baseline,0.9234,0.3985,1.0,0.375,0.5455,0.9999,0.042
+cadets,ProcessParent_jina,Sparse,0.9096,0.1261,1.0,0.125,0.2222,0.9998,0.0395
+cadets,ProcessParent_jina,Deep SVDD,0.6875,0.2397,0.75,0.375,0.5,0.9999,0.021
+cadets,ProcessParent_jina,DAE,0.9747,0.1323,1.0,0.125,0.2222,0.9998,0.0405
+cadets,ProcessParent_jina,VAE,0.9117,0.0329,0.25,0.125,0.1667,0.9998,0.0477
+cadets,ProcessParent_jina,Beta-VAE,0.9075,0.0167,0.125,0.125,0.125,0.9997,0.046
+cadets,ProcessParent_jina,GMVAE,0.9131,0.1279,1.0,0.125,0.2222,0.9998,0.0425
+cadets,ProcessParent_jina,Attention AE,0.9096,0.1261,1.0,0.125,0.2222,0.9998,0.064
+cadets,ProcessParent_jina,LSTMAE,0.8908,0.5004,1.0,0.5,0.6667,0.9999,0.0519
+cadets,ProcessParent_jina,Robust,0.9413,0.4446,0.8,0.5,0.6154,0.9999,0.0405
+cadets,ProcessParent_jina,Contractive,0.9132,0.1278,1.0,0.125,0.2222,0.9998,0.0405
+clearscope,ProcessAll_jina,Baseline,0.9913,0.7416,0.8182,0.6923,0.75,0.9975,0.006
+clearscope,ProcessAll_jina,Sparse,0.9093,0.3944,1.0,0.3077,0.4706,0.9963,0.006
+clearscope,ProcessAll_jina,Deep SVDD,0.9916,0.7686,0.9,0.6923,0.7826,0.9979,0.005
+clearscope,ProcessAll_jina,DAE,0.9572,0.6638,1.0,0.5385,0.7,0.9975,0.005
+clearscope,ProcessAll_jina,VAE,0.9188,0.3922,1.0,0.3077,0.4706,0.9963,0.006
+clearscope,ProcessAll_jina,Beta-VAE,0.917,0.4191,1.0,0.3077,0.4706,0.9963,0.007
+clearscope,ProcessAll_jina,GMVAE,0.9302,0.5501,1.0,0.4615,0.6316,0.9971,0.0081
+clearscope,ProcessAll_jina,Attention AE,0.9095,0.3992,1.0,0.3077,0.4706,0.9963,0.007
+clearscope,ProcessAll_jina,LSTMAE,0.9865,0.6215,0.75,0.6923,0.72,0.9971,0.006
+clearscope,ProcessAll_jina,Robust,0.9869,0.5989,0.75,0.6923,0.72,0.9971,0.005
+clearscope,ProcessAll_jina,Contractive,0.9092,0.3932,1.0,0.3077,0.4706,0.9963,0.005
+clearscope,ProcessEvent_jina,Baseline,0.8904,0.4133,0.4118,0.5385,0.4667,0.9934,0.006
+clearscope,ProcessEvent_jina,Sparse,0.8524,0.035,0.0533,0.3077,0.0909,0.9671,0.005
+clearscope,ProcessEvent_jina,Deep SVDD,0.734,0.4951,0.8571,0.4615,0.6,0.9967,0.004
+clearscope,ProcessEvent_jina,DAE,0.8556,0.0407,0.0682,0.4615,0.1188,0.9634,0.005
+clearscope,ProcessEvent_jina,VAE,0.8693,0.0358,0.0909,0.0769,0.0833,0.991,0.006
+clearscope,ProcessEvent_jina,Beta-VAE,0.8472,0.0379,0.0732,0.2308,0.1111,0.9803,0.006
+clearscope,ProcessEvent_jina,GMVAE,0.8521,0.0346,0.0526,0.2308,0.0857,0.9737,0.007
+clearscope,ProcessEvent_jina,Attention AE,0.9318,0.3549,0.3846,0.3846,0.3846,0.9934,0.006
+clearscope,ProcessEvent_jina,LSTMAE,0.9133,0.3588,0.3529,0.4615,0.4,0.9926,0.008
+clearscope,ProcessEvent_jina,Robust,0.9114,0.3909,0.3684,0.5385,0.4375,0.9926,0.005
+clearscope,ProcessEvent_jina,Contractive,0.8521,0.0346,0.0526,0.2308,0.0857,0.9737,0.006
+clearscope,ProcessExec_jina,Baseline,0.981,0.7523,1.0,0.6923,0.8182,0.9984,0.005
+clearscope,ProcessExec_jina,Sparse,0.921,0.0879,0.129,0.9231,0.2264,0.9663,0.005
+clearscope,ProcessExec_jina,Deep SVDD,0.9561,0.7494,1.0,0.6923,0.8182,0.9984,0.0045
+clearscope,ProcessExec_jina,DAE,0.9721,0.7067,1.0,0.6923,0.8182,0.9984,0.005
+clearscope,ProcessExec_jina,VAE,0.9217,0.0797,0.129,0.9231,0.2264,0.9663,0.006
+clearscope,ProcessExec_jina,Beta-VAE,0.9282,0.0904,0.129,0.9231,0.2264,0.9663,0.005
+clearscope,ProcessExec_jina,GMVAE,0.937,0.0865,0.129,0.9231,0.2264,0.9663,0.005
+clearscope,ProcessExec_jina,Attention AE,0.8117,0.7152,1.0,0.6923,0.8182,0.9984,0.007
+clearscope,ProcessExec_jina,LSTMAE,0.9667,0.7171,1.0,0.6923,0.8182,0.9984,0.006
+clearscope,ProcessExec_jina,Robust,0.9874,0.7273,1.0,0.6923,0.8182,0.9984,0.005
+clearscope,ProcessExec_jina,Contractive,0.9174,0.0878,0.129,0.9231,0.2264,0.9663,0.006
+clearscope,ProcessNetflow_jina,Baseline,0.7668,0.2258,0.3333,0.5556,0.4167,0.9394,0.004
+clearscope,ProcessNetflow_jina,Sparse,0.7533,0.1855,0.3,0.3333,0.3158,0.9437,0.004
+clearscope,ProcessNetflow_jina,Deep SVDD,0.9615,0.4377,0.4211,0.8889,0.5714,0.9481,0.003
+clearscope,ProcessNetflow_jina,DAE,0.7503,0.1807,0.3,0.3333,0.3158,0.9437,0.004
+clearscope,ProcessNetflow_jina,VAE,0.6101,0.0766,0.1333,0.2222,0.1667,0.9134,0.004
+clearscope,ProcessNetflow_jina,Beta-VAE,0.4835,0.055,0.0952,0.2222,0.1333,0.8874,0.004
+clearscope,ProcessNetflow_jina,GMVAE,0.7698,0.1354,0.1562,0.5556,0.2439,0.8658,0.004
+clearscope,ProcessNetflow_jina,Attention AE,0.7993,0.2614,0.5,0.4444,0.4706,0.961,0.0043
+clearscope,ProcessNetflow_jina,LSTMAE,0.7573,0.1896,0.3,0.3333,0.3158,0.9437,0.004
+clearscope,ProcessNetflow_jina,Robust,0.8153,0.3023,0.5,0.4444,0.4706,0.961,0.003
+clearscope,ProcessNetflow_jina,Contractive,0.7533,0.1855,0.3,0.3333,0.3158,0.9437,0.005
+clearscope,ProcessParent_jina,Baseline,,0.0,0.0,0.0,0.0,0.0,0.005
+clearscope,ProcessParent_jina,Sparse,,0.0,0.0,0.0,0.0,0.0,0.003
+clearscope,ProcessParent_jina,Deep SVDD,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,DAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,VAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,Beta-VAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,GMVAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,Attention AE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,LSTMAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent_jina,Robust,,0.0,0.0,0.0,0.0,0.0,0.005
+clearscope,ProcessParent_jina,Contractive,,0.0,0.0,0.0,0.0,0.0,0.003
+theia,ProcessAll_jina,Baseline,0.9968,0.5016,0.503,0.83,0.6264,0.9982,0.057
+theia,ProcessAll_jina,Sparse,0.7408,0.0035,0.0047,0.76,0.0094,0.7141,0.057
+theia,ProcessAll_jina,Deep SVDD,0.5049,0.0051,0.3333,0.01,0.0194,0.9982,0.025
+theia,ProcessAll_jina,DAE,0.9342,0.0253,0.0477,0.53,0.0875,0.9802,0.0511
+theia,ProcessAll_jina,VAE,0.7115,0.0031,0.0039,0.74,0.0078,0.663,0.059
+theia,ProcessAll_jina,Beta-VAE,0.7056,0.003,0.0039,0.74,0.0078,0.6631,0.0551
+theia,ProcessAll_jina,GMVAE,0.7576,0.0037,0.0052,0.96,0.0103,0.6689,0.0575
+theia,ProcessAll_jina,Attention AE,0.7552,0.0037,0.005,0.93,0.0099,0.6691,0.0795
+theia,ProcessAll_jina,LSTMAE,0.9949,0.3564,0.378,0.93,0.5376,0.9971,0.0645
+theia,ProcessAll_jina,Robust,0.9984,0.5762,0.7606,0.54,0.6316,0.9989,0.052
+theia,ProcessAll_jina,Contractive,0.7497,0.0036,0.0052,0.94,0.0103,0.6771,0.0508
+theia,ProcessEvent_jina,Baseline,0.9992,0.728,0.6829,0.84,0.7534,0.999,0.0475
+theia,ProcessEvent_jina,Sparse,0.4269,0.0019,0.0026,1.0,0.0051,0.2872,0.053
+theia,ProcessEvent_jina,Deep SVDD,0.525,0.0434,0.8333,0.05,0.0943,0.9982,0.0225
+theia,ProcessEvent_jina,DAE,0.823,0.0073,0.0108,0.76,0.0214,0.8715,0.048
+theia,ProcessEvent_jina,VAE,0.4295,0.0016,0.0025,0.99,0.005,0.272,0.054
+theia,ProcessEvent_jina,Beta-VAE,0.4218,0.0017,0.0025,1.0,0.005,0.2713,0.056
+theia,ProcessEvent_jina,GMVAE,0.8826,0.0086,0.0153,0.78,0.0301,0.9073,0.0595
+theia,ProcessEvent_jina,Attention AE,0.4217,0.0018,0.0026,1.0,0.0051,0.2832,0.0786
+theia,ProcessEvent_jina,LSTMAE,0.994,0.2866,0.3333,0.64,0.4384,0.997,0.06
+theia,ProcessEvent_jina,Robust,0.9992,0.7499,0.8043,0.74,0.7708,0.9992,0.05
+theia,ProcessEvent_jina,Contractive,0.3997,0.0017,0.0025,1.0,0.005,0.2697,0.048
+theia,ProcessExec_jina,Baseline,0.9485,0.8054,0.7541,0.92,0.8288,0.9993,0.0489
+theia,ProcessExec_jina,Sparse,0.8481,0.0323,0.0818,0.35,0.1326,0.9918,0.0475
+theia,ProcessExec_jina,Deep SVDD,0.8649,0.6651,0.9241,0.73,0.8156,0.9994,0.0245
+theia,ProcessExec_jina,DAE,0.9462,0.1748,0.34,0.34,0.34,0.9976,0.0465
+theia,ProcessExec_jina,VAE,0.8539,0.0168,0.0452,0.36,0.0804,0.9852,0.0545
+theia,ProcessExec_jina,Beta-VAE,0.8527,0.0161,0.0422,0.33,0.0748,0.9854,0.055
+theia,ProcessExec_jina,GMVAE,0.8483,0.0329,0.0833,0.35,0.1346,0.9919,0.0535
+theia,ProcessExec_jina,Attention AE,0.8623,0.033,0.0824,0.35,0.1333,0.9918,0.0774
+theia,ProcessExec_jina,LSTMAE,0.9673,0.6804,0.7419,0.92,0.8214,0.9993,0.063
+theia,ProcessExec_jina,Robust,0.9485,0.759,0.7863,0.92,0.8479,0.9994,0.0485
+theia,ProcessExec_jina,Contractive,0.8537,0.033,0.0833,0.35,0.1346,0.9919,0.049
+theia,ProcessNetflow_jina,Baseline,0.9925,0.8903,0.9083,0.99,0.9474,0.9989,0.01
+theia,ProcessNetflow_jina,Sparse,0.6731,0.0612,1.0,0.04,0.0769,0.9901,0.012
+theia,ProcessNetflow_jina,Deep SVDD,0.994,0.8816,0.8919,0.99,0.9384,0.9987,0.01
+theia,ProcessNetflow_jina,DAE,0.9689,0.2205,0.292,0.99,0.451,0.9751,0.011
+theia,ProcessNetflow_jina,VAE,0.6948,0.0256,0.1379,0.04,0.062,0.9875,0.013
+theia,ProcessNetflow_jina,Beta-VAE,0.7013,0.0323,0.0284,0.95,0.0552,0.6646,0.0121
+theia,ProcessNetflow_jina,GMVAE,0.6731,0.0612,1.0,0.04,0.0769,0.9901,0.012
+theia,ProcessNetflow_jina,Attention AE,0.6717,0.0611,1.0,0.04,0.0769,0.9901,0.016
+theia,ProcessNetflow_jina,LSTMAE,0.9924,0.9042,0.9074,0.98,0.9423,0.9988,0.014
+theia,ProcessNetflow_jina,Robust,0.9924,0.8783,0.9083,0.99,0.9474,0.9989,0.011
+theia,ProcessNetflow_jina,Contractive,0.6731,0.0612,1.0,0.04,0.0769,0.9901,0.01
+theia,ProcessParent_jina,Baseline,0.9356,0.3582,0.602,0.59,0.596,0.9986,0.0479
+theia,ProcessParent_jina,Sparse,0.8925,0.0127,0.0153,0.95,0.0302,0.8908,0.0495
+theia,ProcessParent_jina,Deep SVDD,0.5,0.0018,0.0018,1.0,0.0036,0.0018,0.024
+theia,ProcessParent_jina,DAE,0.9296,0.1109,0.1779,0.58,0.2723,0.9945,0.049
+theia,ProcessParent_jina,VAE,0.8872,0.0093,0.0138,0.93,0.0272,0.8808,0.053
+theia,ProcessParent_jina,Beta-VAE,0.8868,0.0096,0.0139,0.93,0.0273,0.8816,0.053
+theia,ProcessParent_jina,GMVAE,0.89,0.0127,0.0153,0.95,0.0302,0.8908,0.0541
+theia,ProcessParent_jina,Attention AE,0.8885,0.0127,0.0153,0.95,0.0302,0.8908,0.0775
+theia,ProcessParent_jina,LSTMAE,0.9057,0.4747,0.8082,0.59,0.6821,0.999,0.0655
+theia,ProcessParent_jina,Robust,0.9376,0.1737,0.2878,0.59,0.3869,0.9967,0.0493
+theia,ProcessParent_jina,Contractive,0.8911,0.0127,0.0153,0.95,0.0302,0.8908,0.0485
+trace,ProcessEvent_jina,Baseline,0.8794,0.1597,0.186,0.5217,0.2743,0.9978,0.051
+trace,ProcessEvent_jina,Sparse,0.5804,0.0011,0.0017,0.1739,0.0033,0.9138,0.0495
+trace,ProcessEvent_jina,Deep SVDD,0.4782,0.0008,0.0008,1.0,0.0016,0.0008,0.024
+trace,ProcessEvent_jina,DAE,0.7733,0.0022,0.0032,0.5652,0.0064,0.8559,0.0505
+trace,ProcessEvent_jina,VAE,0.6113,0.0012,0.0016,0.3913,0.0031,0.7982,0.0555
+trace,ProcessEvent_jina,Beta-VAE,0.626,0.0012,0.0017,0.4348,0.0035,0.797,0.054
+trace,ProcessEvent_jina,GMVAE,0.7992,0.0026,0.0048,0.6957,0.0096,0.883,0.0615
+trace,ProcessEvent_jina,Attention AE,0.5814,0.0011,0.0017,0.1739,0.0033,0.9136,0.0795
+trace,ProcessEvent_jina,LSTMAE,0.8625,0.1048,0.1765,0.4565,0.2545,0.9978,0.066
+trace,ProcessEvent_jina,Robust,0.8829,0.1281,0.2326,0.2174,0.2247,0.9988,0.052
+trace,ProcessEvent_jina,Contractive,0.6438,0.0013,0.0018,0.413,0.0037,0.8174,0.05
+trace,ProcessExec_jina,Baseline,0.9642,0.8189,0.973,0.8,0.878,0.9998,0.0497
+trace,ProcessExec_jina,Sparse,0.9368,0.0633,0.0974,0.6667,0.17,0.9946,0.048
+trace,ProcessExec_jina,Deep SVDD,0.9,0.7951,0.973,0.8,0.878,0.9998,0.024
+trace,ProcessExec_jina,DAE,0.9469,0.1172,0.1697,0.6222,0.2667,0.9972,0.0485
+trace,ProcessExec_jina,VAE,0.9254,0.0297,0.0506,0.6222,0.0936,0.99,0.0535
+trace,ProcessExec_jina,Beta-VAE,0.9251,0.0233,0.0451,0.6,0.0839,0.9891,0.0521
+trace,ProcessExec_jina,GMVAE,0.9495,0.1768,0.4308,0.6222,0.5091,0.999,0.0603
+trace,ProcessExec_jina,Attention AE,0.9342,0.0643,0.0968,0.6667,0.169,0.9946,0.0786
+trace,ProcessExec_jina,LSTMAE,0.9537,0.7098,0.8182,0.8,0.809,0.9997,0.063
+trace,ProcessExec_jina,Robust,0.9661,0.7758,0.8571,0.8,0.8276,0.9997,0.0482
+trace,ProcessExec_jina,Contractive,0.9289,0.0591,0.0903,0.6222,0.1577,0.9945,0.047
+trace,ProcessParent_jina,Baseline,0.9315,0.1028,0.2581,0.1778,0.2105,0.9989,0.044
+trace,ProcessParent_jina,Sparse,0.8724,0.0125,0.25,0.0222,0.0408,0.9991,0.047
+trace,ProcessParent_jina,Deep SVDD,0.5111,0.0231,1.0,0.0222,0.0435,0.9992,0.0248
+trace,ProcessParent_jina,DAE,0.9347,0.0524,0.0617,0.7778,0.1144,0.9897,0.0462
+trace,ProcessParent_jina,VAE,0.8822,0.0145,0.3333,0.0222,0.0417,0.9991,0.055
+trace,ProcessParent_jina,Beta-VAE,0.8764,0.0095,0.1111,0.0222,0.037,0.999,0.053
+trace,ProcessParent_jina,GMVAE,0.8641,0.0124,0.25,0.0222,0.0408,0.9991,0.0492
+trace,ProcessParent_jina,Attention AE,0.8969,0.0178,0.25,0.0222,0.0408,0.9991,0.0725
+trace,ProcessParent_jina,LSTMAE,0.9675,0.1626,0.4615,0.1333,0.2069,0.9991,0.0605
+trace,ProcessParent_jina,Robust,0.9354,0.2065,0.1362,0.8444,0.2346,0.9953,0.0465
+trace,ProcessParent_jina,Contractive,0.868,0.0125,0.25,0.0222,0.0408,0.9991,0.0459

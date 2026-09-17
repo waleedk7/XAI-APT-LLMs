@@ -1,0 +1,276 @@
+Performer,Context,Model,AUC-ROC,PR-AUC,Precision,Recall,F1-Score,Accuracy,Inference Time(s)
+5dir,ProcessAll,Baseline,0.9583,0.0769,0.0845,0.6667,0.15,0.9696,0.038
+5dir,ProcessAll,Sparse,0.9008,0.0556,0.1429,0.2222,0.1739,0.9915,0.032
+5dir,ProcessAll,Deep SVDD,0.969,0.1113,0.1471,0.5556,0.2326,0.9853,0.011
+5dir,ProcessAll,DAE,0.949,0.0521,0.1,0.3333,0.1538,0.9853,0.0054
+5dir,ProcessAll,VAE,0.8968,0.0578,0.1429,0.2222,0.1739,0.9915,0.006
+5dir,ProcessAll,Beta-VAE,0.8908,0.0568,0.1429,0.2222,0.1739,0.9915,0.006
+5dir,ProcessAll,GMVAE,0.9183,0.061,0.1538,0.2222,0.1818,0.992,0.005
+5dir,ProcessAll,Attention AE,0.9566,0.0759,0.0968,0.3333,0.15,0.9848,0.005
+5dir,ProcessAll,LSTMAE,0.9516,0.0598,0.1429,0.1111,0.125,0.9937,0.007
+5dir,ProcessAll,Robust,0.9502,0.0556,0.1429,0.1111,0.125,0.9937,0.006
+5dir,ProcessAll,Contractive,0.8939,0.0573,0.1429,0.2222,0.1739,0.9915,0.005
+5dir,ProcessEvent,Baseline,0.8967,0.0316,0.0488,0.6667,0.0909,0.9464,0.005
+5dir,ProcessEvent,Sparse,0.8793,0.0321,0.0508,0.3333,0.0882,0.9723,0.005
+5dir,ProcessEvent,Deep SVDD,0.8694,0.0363,0.056,0.7778,0.1045,0.9464,0.005
+5dir,ProcessEvent,DAE,0.8794,0.0323,0.05,0.3333,0.087,0.9718,0.005
+5dir,ProcessEvent,VAE,0.8727,0.0303,0.0588,0.3333,0.1,0.9759,0.005
+5dir,ProcessEvent,Beta-VAE,0.8727,0.0332,0.0536,0.3333,0.0923,0.9736,0.005
+5dir,ProcessEvent,GMVAE,0.8759,0.0282,0.0563,0.4444,0.1,0.9678,0.006
+5dir,ProcessEvent,Attention AE,0.8291,0.0249,0.0469,0.6667,0.0876,0.9441,0.007
+5dir,ProcessEvent,LSTMAE,0.8414,0.0192,0.0311,0.6667,0.0594,0.9151,0.005
+5dir,ProcessEvent,Robust,0.7519,0.0255,0.048,0.6667,0.0896,0.9455,0.005
+5dir,ProcessEvent,Contractive,0.8806,0.032,0.0508,0.3333,0.0882,0.9723,0.006
+5dir,ProcessExec,Baseline,0.9007,0.2183,0.5,0.4444,0.4706,0.996,0.005
+5dir,ProcessExec,Sparse,0.7864,0.0706,0.15,0.3333,0.2069,0.9897,0.005
+5dir,ProcessExec,Deep SVDD,0.8405,0.1491,0.3333,0.2222,0.2667,0.9951,0.004
+5dir,ProcessExec,DAE,0.9124,0.0661,0.1316,0.5556,0.2128,0.9834,0.005
+5dir,ProcessExec,VAE,0.777,0.045,0.1034,0.3333,0.1579,0.9856,0.005
+5dir,ProcessExec,Beta-VAE,0.7755,0.0593,0.1111,0.5556,0.1852,0.9802,0.006
+5dir,ProcessExec,GMVAE,0.8529,0.0785,0.1481,0.4444,0.2222,0.9874,0.005
+5dir,ProcessExec,Attention AE,0.855,0.2035,0.5714,0.4444,0.5,0.9964,0.006
+5dir,ProcessExec,LSTMAE,0.8633,0.2043,0.5,0.4444,0.4706,0.996,0.005
+5dir,ProcessExec,Robust,0.7436,0.1766,0.5,0.3333,0.4,0.996,0.005
+5dir,ProcessExec,Contractive,0.7874,0.07,0.15,0.3333,0.2069,0.9897,0.005
+5dir,ProcessNetflow,Baseline,0.9692,0.5595,0.5714,1.0,0.7273,0.9565,0.004
+5dir,ProcessNetflow,Sparse,0.9385,0.6696,1.0,0.5,0.6667,0.971,0.004
+5dir,ProcessNetflow,Deep SVDD,0.95,0.6708,0.75,0.75,0.75,0.971,0.003
+5dir,ProcessNetflow,DAE,0.9577,0.5625,0.75,0.75,0.75,0.971,0.005
+5dir,ProcessNetflow,VAE,0.7538,0.2612,0.3333,0.5,0.4,0.913,0.004
+5dir,ProcessNetflow,Beta-VAE,0.4692,0.0756,0.1176,0.5,0.1905,0.7536,0.005
+5dir,ProcessNetflow,GMVAE,0.9308,0.6526,1.0,0.5,0.6667,0.971,0.004
+5dir,ProcessNetflow,Attention AE,0.9731,0.6042,0.75,0.75,0.75,0.971,0.005
+5dir,ProcessNetflow,LSTMAE,0.9692,0.5903,0.75,0.75,0.75,0.971,0.005
+5dir,ProcessNetflow,Robust,0.9654,0.5792,0.75,0.75,0.75,0.971,0.004
+5dir,ProcessNetflow,Contractive,0.9308,0.6526,1.0,0.5,0.6667,0.971,0.004
+5dir,ProcessParent,Baseline,0.6461,0.0195,0.0396,0.4444,0.0727,0.9538,0.005
+5dir,ProcessParent,Sparse,0.5448,0.0375,0.0857,0.3333,0.1364,0.9828,0.005
+5dir,ProcessParent,Deep SVDD,0.8941,0.0296,0.043,0.4444,0.0784,0.9574,0.004
+5dir,ProcessParent,DAE,0.9386,0.0448,0.0606,0.4444,0.1067,0.9696,0.005
+5dir,ProcessParent,VAE,0.5498,0.0249,0.0811,0.3333,0.1304,0.9819,0.005
+5dir,ProcessParent,Beta-VAE,0.5565,0.035,0.1034,0.3333,0.1579,0.9855,0.006
+5dir,ProcessParent,GMVAE,0.7851,0.0334,0.0938,0.3333,0.1463,0.9841,0.005
+5dir,ProcessParent,Attention AE,0.6839,0.021,0.043,0.4444,0.0784,0.9574,0.006
+5dir,ProcessParent,LSTMAE,0.8056,0.0265,0.0404,0.4444,0.0741,0.9547,0.006
+5dir,ProcessParent,Robust,0.8108,0.0253,0.0412,0.4444,0.0755,0.9556,0.005
+5dir,ProcessParent,Contractive,0.5454,0.0388,0.0857,0.3333,0.1364,0.9828,0.005
+cadets,ProcessAll,Baseline,0.9997,0.2926,0.3333,0.9091,0.4878,0.9995,0.043
+cadets,ProcessAll,Sparse,0.9295,0.0068,0.0154,0.1818,0.0284,0.997,0.046
+cadets,ProcessAll,Deep SVDD,0.6816,0.0754,0.2174,0.4545,0.2941,0.9995,0.02
+cadets,ProcessAll,DAE,0.9795,0.0081,0.0104,0.7273,0.0204,0.9829,0.039
+cadets,ProcessAll,VAE,0.9285,0.0061,0.0118,0.3636,0.0228,0.9924,0.044
+cadets,ProcessAll,Beta-VAE,0.9268,0.0061,0.0166,0.2727,0.0312,0.9959,0.042
+cadets,ProcessAll,GMVAE,0.9995,0.2431,0.4,0.5455,0.4615,0.9997,0.0459
+cadets,ProcessAll,Attention AE,0.9279,0.0061,0.0128,0.1818,0.024,0.9964,0.049
+cadets,ProcessAll,LSTMAE,0.9997,0.3505,0.36,0.8182,0.5,0.9996,0.0443
+cadets,ProcessAll,Robust,0.9994,0.2125,0.375,0.5455,0.4444,0.9997,0.0375
+cadets,ProcessAll,Contractive,0.9254,0.0043,0.0098,0.2727,0.0189,0.9931,0.037
+cadets,ProcessEvent,Baseline,0.8894,0.0023,0.0052,0.2727,0.0103,0.9872,0.0391
+cadets,ProcessEvent,Sparse,0.772,0.0006,0.0009,0.6364,0.0017,0.8203,0.0374
+cadets,ProcessEvent,Deep SVDD,0.4998,0.0002,0.0002,1.0,0.0005,0.0002,0.018
+cadets,ProcessEvent,DAE,0.8041,0.0007,0.0011,0.6364,0.0021,0.8535,0.037
+cadets,ProcessEvent,VAE,0.7663,0.0006,0.0008,0.6364,0.0016,0.8013,0.044
+cadets,ProcessEvent,Beta-VAE,0.7697,0.0006,0.0008,0.7273,0.0016,0.779,0.042
+cadets,ProcessEvent,GMVAE,0.8819,0.0017,0.0027,0.2727,0.0053,0.9751,0.0452
+cadets,ProcessEvent,Attention AE,0.7532,0.0006,0.0009,0.6364,0.0017,0.8175,0.049
+cadets,ProcessEvent,LSTMAE,0.8942,0.0016,0.0025,0.3636,0.005,0.9648,0.045
+cadets,ProcessEvent,Robust,0.9066,0.0023,0.004,0.3636,0.008,0.9778,0.0362
+cadets,ProcessEvent,Contractive,0.7717,0.0006,0.0009,0.6364,0.0018,0.8283,0.039
+cadets,ProcessExec,Baseline,0.9987,0.5862,0.7,0.6364,0.6667,0.9998,0.036
+cadets,ProcessExec,Sparse,0.9347,0.0139,0.0309,0.5455,0.0585,0.9957,0.035
+cadets,ProcessExec,Deep SVDD,0.8181,0.4455,0.5,0.6364,0.56,0.9998,0.018
+cadets,ProcessExec,DAE,0.9969,0.1178,0.25,0.4545,0.3226,0.9995,0.0374
+cadets,ProcessExec,VAE,0.9452,0.008,0.0182,0.5455,0.0352,0.9927,0.0411
+cadets,ProcessExec,Beta-VAE,0.937,0.0095,0.0229,0.5455,0.044,0.9942,0.04
+cadets,ProcessExec,GMVAE,0.9349,0.0137,0.0309,0.5455,0.0585,0.9957,0.04
+cadets,ProcessExec,Attention AE,0.9405,0.014,0.0309,0.5455,0.0585,0.9957,0.047
+cadets,ProcessExec,LSTMAE,0.9985,0.49,0.8,0.3636,0.5,0.9998,0.0411
+cadets,ProcessExec,Robust,0.9995,0.4852,0.625,0.4545,0.5263,0.9998,0.035
+cadets,ProcessExec,Contractive,0.9356,0.0139,0.0311,0.5455,0.0588,0.9957,0.036
+cadets,ProcessNetflow,Baseline,0.9365,0.6457,0.5714,0.8,0.6667,0.9991,0.009
+cadets,ProcessNetflow,Sparse,0.8691,0.0104,0.0417,0.1,0.0588,0.9963,0.009
+cadets,ProcessNetflow,Deep SVDD,0.9585,0.5177,0.5,0.8,0.6154,0.9988,0.007
+cadets,ProcessNetflow,DAE,0.9298,0.1683,0.3,0.3,0.3,0.9984,0.009
+cadets,ProcessNetflow,VAE,0.8752,0.0098,0.037,0.1,0.0541,0.9959,0.01
+cadets,ProcessNetflow,Beta-VAE,0.8569,0.0076,0.0111,0.8,0.0219,0.917,0.012
+cadets,ProcessNetflow,GMVAE,0.8979,0.0753,0.3333,0.1,0.1538,0.9987,0.011
+cadets,ProcessNetflow,Attention AE,0.8765,0.0079,0.0111,0.8,0.0219,0.917,0.011
+cadets,ProcessNetflow,LSTMAE,0.9359,0.4516,0.6667,0.4,0.5,0.9991,0.01
+cadets,ProcessNetflow,Robust,0.9361,0.4395,0.5455,0.6,0.5714,0.999,0.01
+cadets,ProcessNetflow,Contractive,0.8781,0.0115,0.0417,0.1,0.0588,0.9963,0.009
+cadets,ProcessParent,Baseline,0.9507,0.3284,0.75,0.375,0.5,0.9999,0.034
+cadets,ProcessParent,Sparse,0.8768,0.0042,0.0183,0.25,0.0342,0.9975,0.034
+cadets,ProcessParent,Deep SVDD,0.625,0.2085,0.6667,0.25,0.3636,0.9998,0.019
+cadets,ProcessParent,DAE,0.9008,0.1374,1.0,0.125,0.2222,0.9998,0.0342
+cadets,ProcessParent,VAE,0.8772,0.0026,0.0088,0.25,0.0169,0.9948,0.041
+cadets,ProcessParent,Beta-VAE,0.8721,0.0023,0.0075,0.25,0.0147,0.994,0.043
+cadets,ProcessParent,GMVAE,0.9316,0.2452,0.75,0.375,0.5,0.9999,0.043
+cadets,ProcessParent,Attention AE,0.8767,0.0042,0.0183,0.25,0.0342,0.9975,0.045
+cadets,ProcessParent,LSTMAE,0.8613,0.3444,0.6,0.375,0.4615,0.9998,0.039
+cadets,ProcessParent,Robust,0.956,0.3588,0.75,0.375,0.5,0.9999,0.0342
+cadets,ProcessParent,Contractive,0.8713,0.004,0.0182,0.25,0.0339,0.9975,0.035
+clearscope,ProcessAll,Baseline,0.9971,0.6962,0.7692,0.7692,0.7692,0.9975,0.005
+clearscope,ProcessAll,Sparse,0.9751,0.2315,0.5,0.2308,0.3158,0.9947,0.005
+clearscope,ProcessAll,Deep SVDD,0.9977,0.7751,0.8333,0.7692,0.8,0.9979,0.004
+clearscope,ProcessAll,DAE,0.9869,0.5596,0.8182,0.6923,0.75,0.9975,0.006
+clearscope,ProcessAll,VAE,0.951,0.0786,0.125,0.2308,0.1622,0.9873,0.005
+clearscope,ProcessAll,Beta-VAE,0.9751,0.2497,1.0,0.1538,0.2667,0.9955,0.007
+clearscope,ProcessAll,GMVAE,0.9758,0.2315,0.5,0.2308,0.3158,0.9947,0.006
+clearscope,ProcessAll,Attention AE,0.9964,0.6764,0.7143,0.7692,0.7407,0.9971,0.005
+clearscope,ProcessAll,LSTMAE,0.9967,0.6252,0.7692,0.7692,0.7692,0.9975,0.006
+clearscope,ProcessAll,Robust,0.9959,0.6152,0.7692,0.7692,0.7692,0.9975,0.006
+clearscope,ProcessAll,Contractive,0.9746,0.2312,0.5,0.2308,0.3158,0.9947,0.005
+clearscope,ProcessEvent,Baseline,0.9131,0.5972,1.0,0.4615,0.6316,0.9971,0.005
+clearscope,ProcessEvent,Sparse,0.868,0.0423,0.0769,0.3846,0.1282,0.972,0.006
+clearscope,ProcessEvent,Deep SVDD,0.929,0.6129,1.0,0.4615,0.6316,0.9971,0.005
+clearscope,ProcessEvent,DAE,0.9157,0.2631,0.1935,0.4615,0.2727,0.9868,0.005
+clearscope,ProcessEvent,VAE,0.893,0.0367,0.0649,0.3846,0.1111,0.9671,0.006
+clearscope,ProcessEvent,Beta-VAE,0.8833,0.0412,0.0877,0.3846,0.1429,0.9753,0.006
+clearscope,ProcessEvent,GMVAE,0.8944,0.1012,0.375,0.2308,0.2857,0.9938,0.007
+clearscope,ProcessEvent,Attention AE,0.9106,0.4405,0.6,0.4615,0.5217,0.9955,0.006
+clearscope,ProcessEvent,LSTMAE,0.9331,0.4113,0.5,0.4615,0.48,0.9947,0.009
+clearscope,ProcessEvent,Robust,0.9311,0.5262,0.5833,0.5385,0.56,0.9955,0.007
+clearscope,ProcessEvent,Contractive,0.8732,0.043,0.0725,0.3846,0.122,0.9704,0.006
+clearscope,ProcessExec,Baseline,0.9922,0.7585,0.9,0.6923,0.7826,0.9979,0.005
+clearscope,ProcessExec,Sparse,0.9702,0.0974,0.134,1.0,0.2364,0.9655,0.005
+clearscope,ProcessExec,Deep SVDD,0.8468,0.7454,1.0,0.6923,0.8182,0.9984,0.005
+clearscope,ProcessExec,DAE,0.9646,0.739,0.9,0.6923,0.7826,0.9979,0.005
+clearscope,ProcessExec,VAE,0.97,0.083,0.1277,0.9231,0.2243,0.9659,0.007
+clearscope,ProcessExec,Beta-VAE,0.9705,0.0873,0.1275,1.0,0.2261,0.9634,0.005
+clearscope,ProcessExec,GMVAE,0.988,0.7514,0.9,0.6923,0.7826,0.9979,0.006
+clearscope,ProcessExec,Attention AE,0.9922,0.7585,0.9,0.6923,0.7826,0.9979,0.0062
+clearscope,ProcessExec,LSTMAE,0.964,0.732,0.9,0.6923,0.7826,0.9979,0.007
+clearscope,ProcessExec,Robust,0.9683,0.7397,0.9,0.6923,0.7826,0.9979,0.005
+clearscope,ProcessExec,Contractive,0.9702,0.0974,0.134,1.0,0.2364,0.9655,0.009
+clearscope,ProcessNetflow,Baseline,0.9665,0.6696,0.75,0.6667,0.7059,0.9784,0.005
+clearscope,ProcessNetflow,Sparse,0.8048,0.2185,0.4,0.4444,0.4211,0.9524,0.003
+clearscope,ProcessNetflow,Deep SVDD,0.9745,0.6777,0.75,0.6667,0.7059,0.9784,0.004
+clearscope,ProcessNetflow,DAE,0.8969,0.3835,1.0,0.2222,0.3636,0.9697,0.004
+clearscope,ProcessNetflow,VAE,0.7377,0.1164,0.2308,0.3333,0.2727,0.9307,0.004
+clearscope,ProcessNetflow,Beta-VAE,0.6141,0.0536,0.065,0.8889,0.1212,0.4978,0.004
+clearscope,ProcessNetflow,GMVAE,0.8028,0.2051,0.4,0.4444,0.4211,0.9524,0.004
+clearscope,ProcessNetflow,Attention AE,0.974,0.685,0.75,0.6667,0.7059,0.9784,0.0062
+clearscope,ProcessNetflow,LSTMAE,0.9745,0.5968,0.5333,0.8889,0.6667,0.9654,0.004
+clearscope,ProcessNetflow,Robust,0.974,0.6899,0.75,0.6667,0.7059,0.9784,0.005
+clearscope,ProcessNetflow,Contractive,0.7988,0.2028,0.3333,0.4444,0.381,0.9437,0.004
+clearscope,ProcessParent,Baseline,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent,Sparse,,0.0,0.0,0.0,0.0,0.0,0.003
+clearscope,ProcessParent,Deep SVDD,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent,DAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent,VAE,,0.0,0.0,0.0,0.0,0.0,0.003
+clearscope,ProcessParent,Beta-VAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent,GMVAE,,0.0,0.0,0.0,0.0,0.0,0.004
+clearscope,ProcessParent,Attention AE,,0.0,0.0,0.0,0.0,0.0,0.0166
+clearscope,ProcessParent,LSTMAE,,0.0,0.0,0.0,0.0,0.0,0.0048
+clearscope,ProcessParent,Robust,,0.0,0.0,0.0,0.0,0.0,0.003
+clearscope,ProcessParent,Contractive,,0.0,0.0,0.0,0.0,0.0,0.004
+theia,ProcessAll,Baseline,0.9992,0.7911,0.8051,0.95,0.8716,0.9995,0.0535
+theia,ProcessAll,Sparse,0.9288,0.0149,0.0228,0.95,0.0446,0.9272,0.0471
+theia,ProcessAll,Deep SVDD,0.8249,0.6145,0.7667,0.69,0.7263,0.9991,0.024
+theia,ProcessAll,DAE,0.9946,0.3141,0.4248,0.48,0.4507,0.9979,0.0457
+theia,ProcessAll,VAE,0.9313,0.0142,0.0224,0.89,0.0436,0.9303,0.049
+theia,ProcessAll,Beta-VAE,0.9285,0.0142,0.0215,0.94,0.042,0.9234,0.0483
+theia,ProcessAll,GMVAE,0.9983,0.7114,0.696,0.87,0.7733,0.9991,0.0544
+theia,ProcessAll,Attention AE,0.9301,0.0145,0.0227,0.95,0.0444,0.9269,0.059
+theia,ProcessAll,LSTMAE,0.9973,0.728,0.7344,0.94,0.8246,0.9993,0.0493
+theia,ProcessAll,Robust,0.9988,0.8062,0.7355,0.89,0.8054,0.9992,0.0453
+theia,ProcessAll,Contractive,0.9322,0.0153,0.0226,0.94,0.0441,0.9272,0.044
+theia,ProcessEvent,Baseline,0.998,0.5823,0.5879,0.97,0.7321,0.9987,0.04
+theia,ProcessEvent,Sparse,0.8108,0.0123,0.0186,0.61,0.036,0.9398,0.04
+theia,ProcessEvent,Deep SVDD,0.55,0.085,0.8333,0.1,0.1786,0.9983,0.022
+theia,ProcessEvent,DAE,0.9652,0.2213,0.2952,0.62,0.4,0.9966,0.0415
+theia,ProcessEvent,VAE,0.765,0.0074,0.0133,0.42,0.0258,0.9414,0.051
+theia,ProcessEvent,Beta-VAE,0.7822,0.0079,0.0143,0.49,0.0279,0.9369,0.049
+theia,ProcessEvent,GMVAE,0.9978,0.3421,0.4863,0.71,0.5772,0.9981,0.056
+theia,ProcessEvent,Attention AE,0.7899,0.0126,0.0186,0.61,0.036,0.9398,0.056
+theia,ProcessEvent,LSTMAE,0.9979,0.4655,0.6105,0.58,0.5949,0.9985,0.0464
+theia,ProcessEvent,Robust,0.9986,0.5366,0.4826,0.97,0.6445,0.998,0.044
+theia,ProcessEvent,Contractive,0.7892,0.0134,0.0203,0.45,0.0389,0.959,0.042
+theia,ProcessExec,Baseline,0.9618,0.8112,0.7845,0.91,0.8426,0.9994,0.046
+theia,ProcessExec,Sparse,0.7979,0.0373,0.0997,0.35,0.1552,0.9932,0.0405
+theia,ProcessExec,Deep SVDD,0.8649,0.6467,0.9012,0.73,0.8066,0.9994,0.023
+theia,ProcessExec,DAE,0.9501,0.2672,0.5397,0.34,0.4172,0.9983,0.0435
+theia,ProcessExec,VAE,0.794,0.0262,0.0877,0.35,0.1403,0.9923,0.049
+theia,ProcessExec,Beta-VAE,0.7976,0.0289,0.086,0.35,0.1381,0.9922,0.048
+theia,ProcessExec,GMVAE,0.9615,0.6029,0.6619,0.92,0.7699,0.999,0.053
+theia,ProcessExec,Attention AE,0.7962,0.0372,0.0997,0.35,0.1552,0.9932,0.0564
+theia,ProcessExec,LSTMAE,0.9442,0.8012,0.7863,0.92,0.8479,0.9994,0.049
+theia,ProcessExec,Robust,0.9514,0.7871,0.8,0.92,0.8558,0.9994,0.043
+theia,ProcessExec,Contractive,0.7979,0.0373,0.0997,0.35,0.1552,0.9932,0.0441
+theia,ProcessNetflow,Baseline,0.9877,0.7872,1.0,0.66,0.7952,0.9965,0.01
+theia,ProcessNetflow,Sparse,0.9727,0.5475,0.6547,0.91,0.7615,0.9941,0.012
+theia,ProcessNetflow,Deep SVDD,0.99,0.8313,0.9851,0.66,0.7904,0.9964,0.007
+theia,ProcessNetflow,DAE,0.9927,0.933,0.9245,0.98,0.9515,0.999,0.01
+theia,ProcessNetflow,VAE,0.9732,0.3846,0.5583,0.91,0.692,0.9916,0.011
+theia,ProcessNetflow,Beta-VAE,0.9726,0.3815,0.5541,0.82,0.6613,0.9913,0.012
+theia,ProcessNetflow,GMVAE,0.9978,0.9034,0.9333,0.98,0.9561,0.9991,0.011
+theia,ProcessNetflow,Attention AE,0.9726,0.5475,0.6547,0.91,0.7615,0.9941,0.013
+theia,ProcessNetflow,LSTMAE,0.9937,0.8836,0.75,0.99,0.8534,0.9965,0.011
+theia,ProcessNetflow,Robust,0.9901,0.8065,0.9565,0.66,0.7811,0.9962,0.009
+theia,ProcessNetflow,Contractive,0.974,0.5444,0.6547,0.91,0.7615,0.9941,0.009
+theia,ProcessParent,Baseline,0.8794,0.2175,0.362,0.59,0.4487,0.9974,0.041
+theia,ProcessParent,Sparse,0.8819,0.0113,0.0139,0.95,0.0273,0.8789,0.0422
+theia,ProcessParent,Deep SVDD,0.5,0.0018,0.0018,1.0,0.0036,0.0018,0.022
+theia,ProcessParent,DAE,0.9261,0.0799,0.1277,0.59,0.21,0.9921,0.044
+theia,ProcessParent,VAE,0.8655,0.0081,0.0114,0.92,0.0224,0.8566,0.05
+theia,ProcessParent,Beta-VAE,0.8538,0.0073,0.0111,0.91,0.0219,0.8546,0.0493
+theia,ProcessParent,GMVAE,0.9444,0.2299,0.5728,0.59,0.5813,0.9985,0.0552
+theia,ProcessParent,Attention AE,0.8826,0.0113,0.0139,0.95,0.0273,0.8789,0.0573
+theia,ProcessParent,LSTMAE,0.9375,0.4879,0.8194,0.59,0.686,0.999,0.049
+theia,ProcessParent,Robust,0.942,0.4928,0.8194,0.59,0.686,0.999,0.042
+theia,ProcessParent,Contractive,0.8819,0.0112,0.0138,0.95,0.0272,0.8786,0.042
+trace,ProcessAll,Baseline,0.9996,0.7687,0.8974,0.7609,0.8235,0.9997,0.0454
+trace,ProcessAll,Sparse,0.8886,0.0074,0.0116,0.6957,0.0228,0.9514,0.045
+trace,ProcessAll,Deep SVDD,0.8912,0.6113,0.8333,0.7609,0.7955,0.9997,0.021
+trace,ProcessAll,DAE,0.9891,0.1443,0.2195,0.587,0.3195,0.998,0.045
+trace,ProcessAll,VAE,0.8889,0.0069,0.0105,0.4348,0.0205,0.9662,0.05
+trace,ProcessAll,Beta-VAE,0.8876,0.0063,0.0099,0.5217,0.0195,0.9572,0.05
+trace,ProcessAll,GMVAE,0.9993,0.6155,0.7872,0.8043,0.7957,0.9997,0.055
+trace,ProcessAll,Attention AE,0.8963,0.008,0.0129,0.6087,0.0253,0.9618,0.0588
+trace,ProcessAll,LSTMAE,0.9991,0.6375,0.7826,0.7826,0.7826,0.9996,0.0514
+trace,ProcessAll,Robust,0.9993,0.5592,0.7255,0.8043,0.7629,0.9996,0.045
+trace,ProcessAll,Contractive,0.895,0.0078,0.0126,0.5652,0.0246,0.9635,0.044
+trace,ProcessEvent,Baseline,0.867,0.1673,0.3421,0.2826,0.3095,0.999,0.0443
+trace,ProcessEvent,Sparse,0.7913,0.0028,0.0043,0.6087,0.0085,0.8845,0.043
+trace,ProcessEvent,Deep SVDD,0.5217,0.0124,0.3333,0.0435,0.0769,0.9991,0.023
+trace,ProcessEvent,DAE,0.8878,0.0476,0.11,0.5,0.1804,0.9963,0.0445
+trace,ProcessEvent,VAE,0.8035,0.0026,0.004,0.3913,0.008,0.9206,0.051
+trace,ProcessEvent,Beta-VAE,0.7812,0.0025,0.0038,0.5652,0.0075,0.8775,0.051
+trace,ProcessEvent,GMVAE,0.8807,0.0735,0.1102,0.3043,0.1618,0.9974,0.054
+trace,ProcessEvent,Attention AE,0.7977,0.0027,0.0041,0.6087,0.0081,0.8791,0.057
+trace,ProcessEvent,LSTMAE,0.8629,0.0997,0.1471,0.5435,0.2315,0.9971,0.051
+trace,ProcessEvent,Robust,0.8892,0.1533,0.2895,0.2391,0.2619,0.9989,0.043
+trace,ProcessEvent,Contractive,0.8098,0.003,0.0045,0.6087,0.0089,0.8891,0.044
+trace,ProcessExec,Baseline,0.9502,0.8143,0.973,0.8,0.878,0.9998,0.043
+trace,ProcessExec,Sparse,0.9118,0.0432,0.0638,0.6222,0.1157,0.9921,0.0405
+trace,ProcessExec,Deep SVDD,0.9,0.7951,0.973,0.8,0.878,0.9998,0.021
+trace,ProcessExec,DAE,0.9391,0.0992,0.1261,0.6222,0.2097,0.9961,0.0421
+trace,ProcessExec,VAE,0.91,0.0255,0.0439,0.5333,0.0811,0.99,0.048
+trace,ProcessExec,Beta-VAE,0.9123,0.0326,0.0527,0.6,0.0969,0.9907,0.0471
+trace,ProcessExec,GMVAE,0.9743,0.7079,0.9655,0.6222,0.7568,0.9997,0.054
+trace,ProcessExec,Attention AE,0.9126,0.0431,0.0638,0.6222,0.1157,0.9921,0.055
+trace,ProcessExec,LSTMAE,0.9501,0.8188,0.973,0.8,0.878,0.9998,0.049
+trace,ProcessExec,Robust,0.9419,0.8111,0.9,0.8,0.8471,0.9998,0.043
+trace,ProcessExec,Contractive,0.9186,0.0438,0.0638,0.6222,0.1157,0.9921,0.042
+trace,ProcessNetflow,Baseline,0.9887,0.6769,0.7391,0.9444,0.8293,0.9896,0.004
+trace,ProcessNetflow,Sparse,0.9252,0.2677,0.2409,0.9167,0.3815,0.9204,0.005
+trace,ProcessNetflow,Deep SVDD,0.9927,0.8008,0.8684,0.9167,0.8919,0.9941,0.004
+trace,ProcessNetflow,DAE,0.9868,0.6134,0.6538,0.9444,0.7727,0.9851,0.005
+trace,ProcessNetflow,VAE,0.9297,0.2069,0.2276,0.9167,0.3646,0.9145,0.005
+trace,ProcessNetflow,Beta-VAE,0.9304,0.2091,0.2381,0.9722,0.3825,0.916,0.006
+trace,ProcessNetflow,GMVAE,0.9875,0.5519,0.7083,0.9444,0.8095,0.9881,0.005
+trace,ProcessNetflow,Attention AE,0.9909,0.7331,0.8049,0.9167,0.8571,0.9918,0.005
+trace,ProcessNetflow,LSTMAE,0.9852,0.6119,0.6667,0.9444,0.7816,0.9859,0.005
+trace,ProcessNetflow,Robust,0.9867,0.6353,0.6939,0.9444,0.8,0.9874,0.005
+trace,ProcessNetflow,Contractive,0.9249,0.2674,0.2409,0.9167,0.3815,0.9204,0.006
+trace,ProcessParent,Baseline,0.9655,0.1094,0.5,0.1333,0.2105,0.9991,0.04
+trace,ProcessParent,Sparse,0.926,0.1349,0.1908,0.7333,0.3028,0.9971,0.041
+trace,ProcessParent,Deep SVDD,0.5111,0.0231,1.0,0.0222,0.0435,0.9992,0.02
+trace,ProcessParent,DAE,0.9221,0.1506,0.1966,0.7778,0.3139,0.9971,0.039
+trace,ProcessParent,VAE,0.9079,0.0188,0.0355,0.1111,0.0538,0.9967,0.046
+trace,ProcessParent,Beta-VAE,0.892,0.0132,0.049,0.1111,0.068,0.9974,0.049
+trace,ProcessParent,GMVAE,0.8933,0.074,0.3684,0.1556,0.2188,0.9991,0.051
+trace,ProcessParent,Attention AE,0.9247,0.1365,0.1908,0.7333,0.3028,0.9971,0.0533
+trace,ProcessParent,LSTMAE,0.9133,0.1608,0.3333,0.2,0.25,0.999,0.048
+trace,ProcessParent,Robust,0.9257,0.1649,0.6,0.1333,0.2182,0.9992,0.0425
+trace,ProcessParent,Contractive,0.9126,0.0399,0.1,0.1111,0.1053,0.9984,0.0401
